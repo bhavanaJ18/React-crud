@@ -24,12 +24,12 @@ const EditUser = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    await axios.put(`http://localhost:3001/users/${id}`, user);
+    await axios.put(`http://localhost:3002/users/${id}`, user);
     history.push("/")
   };
 
   const loadUsers =async() =>{
-    const result = await axios.get(`http://localhost:3001/users/${id}` );
+    const result = await axios.get(`http://localhost:3002/users/${id}` );
     console.log(result)
   }
   return (
@@ -38,7 +38,7 @@ const EditUser = () => {
         <h2 className="text-center mb-4">Edit a user</h2>
         <form onSubmit={e => onSubmit(e)}>
           <div className="mb-3">
-            <input type="email" placeholder="Name" className="form-control" id="exampleInputEmail1" name="name" value={Name}
+            <input type="name" placeholder="Name" className="form-control" id="exampleInputEmail1" name="name" value={Name}
               onChange={e => onInputChange(e)} />
           </div>
           <div className="mb-3">

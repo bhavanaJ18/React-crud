@@ -15,7 +15,7 @@ useEffect(() =>{
   loadUsers();
 })
   const loadUsers =async() =>{
-    const result = await axios.get(`http://localhost:3001/users/${id}` );
+    const result = await axios.get(`http://localhost:3002/users/${id}` );
     setUser(result.data);
   };
   return(

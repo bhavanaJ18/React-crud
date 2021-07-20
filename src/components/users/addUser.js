@@ -19,7 +19,7 @@ const AddUser = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:3001/users", user);
+    await axios.post("http://localhost:3002/users", user);
     history.push("/")
   }
   return (
@@ -28,7 +28,7 @@ const AddUser = () => {
         <h2 className="text-center mb-4">Add a user</h2>
         <form onSubmit={e => onSubmit(e)}>
           <div className="mb-3">
-            <input type="email" placeholder="Name" className="form-control" id="exampleInputEmail1" name="name" value={Name}
+            <input type="text" placeholder="Name" className="form-control" id="name" name="name" value={Name}
               onChange={e => onInputChange(e)} />
           </div>
           <div className="mb-3">
