@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bhavanaJ18/React-crud.git/static/css/main.7fbc25d9.chunk.css",
+    "main.js": "/bhavanaJ18/React-crud.git/static/js/main.a08d0992.chunk.js",
+    "main.js.map": "/bhavanaJ18/React-crud.git/static/js/main.a08d0992.chunk.js.map",
+    "runtime-main.js": "/bhavanaJ18/React-crud.git/static/js/runtime-main.37c62ab0.js",
+    "runtime-main.js.map": "/bhavanaJ18/React-crud.git/static/js/runtime-main.37c62ab0.js.map",
+    "static/css/2.455652b6.chunk.css": "/bhavanaJ18/React-crud.git/static/css/2.455652b6.chunk.css",
+    "static/js/2.078fcf64.chunk.js": "/bhavanaJ18/React-crud.git/static/js/2.078fcf64.chunk.js",
+    "static/js/2.078fcf64.chunk.js.map": "/bhavanaJ18/React-crud.git/static/js/2.078fcf64.chunk.js.map",
+    "index.html": "/bhavanaJ18/React-crud.git/index.html",
+    "static/css/2.455652b6.chunk.css.map": "/bhavanaJ18/React-crud.git/static/css/2.455652b6.chunk.css.map",
+    "static/css/main.7fbc25d9.chunk.css.map": "/bhavanaJ18/React-crud.git/static/css/main.7fbc25d9.chunk.css.map",
+    "static/js/2.078fcf64.chunk.js.LICENSE.txt": "/bhavanaJ18/React-crud.git/static/js/2.078fcf64.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37c62ab0.js",
+    "static/css/2.455652b6.chunk.css",
+    "static/js/2.078fcf64.chunk.js",
+    "static/css/main.7fbc25d9.chunk.css",
+    "static/js/main.a08d0992.chunk.js"
+  ]
+}
